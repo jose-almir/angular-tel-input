@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
+
+.phone-container {
+  .iti__flag-container {
+    font-family: "Prompt", sans-serif;
+    font-size: 16px;
+    border-right: 1px solid black;
+    z-index: 999;
+  }
+
+  .iti__arrow {
+    border-top-color: red !important;    
+    margin-left: 0;
+    margin-right: 6px;
+    order: -1;
+  }
+
+  .iti__arrow--up {
+    border-bottom-color: red !important;
+  }
+
+  .iti__flag {
+    border-radius: 2px;
+  }
+
+  .iti__selected-flag {
+    background-color: transparent !important;
+  }
+
+  input[type="tel"] {
+    height: 48px;
+    border: 1px solid black;
+    font-family: "Prompt", sans-serif;
+    &:focus {
+      outline: none;
+    }
+  }
+}
